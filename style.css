@@ -1,0 +1,157 @@
+body {
+    background-color: lightgray;
+    margin: 0px;
+    overflow-y: hidden;
+}
+
+.left_photo {
+    position: absolute;
+    margin: 0px;
+    height: 100%;
+}
+
+.odin_photo_container {
+    position: absolute;
+    top: 30%;
+    width: 30%;
+    height: 300px;
+    z-index: +100;
+}
+
+.odin_photo {
+    position: inherit;
+    z-index: +1;
+    margin-left: 32%;
+    height: 200px;
+    width: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.odin_text {
+    font-family: 'Norse-Bold', 'Norse';
+    margin-top: 200px;
+    margin-left: 2vw;
+    color: rgb(215, 215, 215);
+    font-size: 82px;
+    width: 30vw;
+}
+
+.odin_photo_background {
+    position: absolute;
+    top: 28%;
+    width: 30%;
+    height: 350px;
+    background-color: black;
+    opacity: 45%;
+}
+
+.background {
+    margin: 0px;
+    text-align: left;
+    height: 1600px;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 30vw;
+}
+
+.author {
+    font-family: 'Norse-Bold', 'Norse';
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    top: 95%;
+    color: rgb(215, 215, 215);
+}
+
+a {
+    color: rgb(215, 215, 215);
+}
+
+.right_side {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+form {
+    position: absolute;
+    top: 28%;
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    box-shadow: 2px 6px 10px #cacaca;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.submit {
+    position: absolute;
+    top: 62%;
+    width: 240px;
+    height: 50px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #596D48;
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.top_margin {
+    margin-top: 50px;
+}
+
+.login {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login_text {
+    position: absolute;
+    top: 72%;
+    margin-left: 30px;
+}
+
+.lets {
+    position: absolute;
+    font-size: 22px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+input {
+    margin-left: 30px;
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    height: 30px;
+}
+
+label {
+    margin-left: 30px;
+    color: rgb(93, 93, 93);
+}
+
+.focus:focus {
+    border: 2px solid blue;
+    box-shadow: 2px 6px 10px #cacaca;
+}
+
+.text {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub_text {
+    margin-top: -20px;
+}
